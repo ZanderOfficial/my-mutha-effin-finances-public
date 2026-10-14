@@ -1,0 +1,10 @@
+node_modules
+.next
+.turbo
+.env*
+!.env.example
+.design-shots
+*.tsbuildinfo
+next-env.d.ts
+.claude/settings.local.json
+.idea

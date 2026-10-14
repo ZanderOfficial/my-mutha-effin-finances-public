@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "mmff-app", "runtimeExecutable": "pnpm", "runtimeArgs": ["--filter", "@mmff/app", "dev"], "port": 3100 },
+    { "name": "mmff-app-prod", "runtimeExecutable": "pnpm", "runtimeArgs": ["--filter", "@mmff/app", "start"], "port": 3100 }
+  ]
+}
